@@ -37,9 +37,16 @@ This project demonstrates object-oriented design with real-world file handling, 
 ---
 
 ## 📁 Folder Structure
-<pre>budget-tracker/ ├── main.py # GUI version using EasyFrame (BreezyPythonGUI) ├── budgetApp.py # CLI-based version of the app ├── BudgetTracker.py # Core logic for managing categories and tracking ├── Category.py # Defines a single category and its expenses ├── budget_data.json # Persistent storage file for income and expenses ├── dollar_icon.gif # Header icon image used in the GUI
-</pre>
 
+```
+budget-tracker/
+├── main.py              # GUI version using EasyFrame (BreezyPythonGUI)
+├── budgetApp.py         # CLI-based version of the app
+├── BudgetTracker.py     # Core logic for managing categories and tracking
+├── Category.py          # Defines a single category and its expenses
+├── budget_data.json     # Persistent storage file for income and expenses
+├── dollar_icon.gif      # Header icon image used in the GUI
+```
 
 ---
 
@@ -50,4 +57,32 @@ This project demonstrates object-oriented design with real-world file handling, 
 - Install `matplotlib` if not already installed:
   ```bash
   pip install matplotlib
+  ```
 
+### Run GUI version:
+```bash
+python main.py
+```
+
+### Run CLI version:
+```bash
+python budgetApp.py
+```
+
+---
+
+## 🌟 Educational Purpose
+
+This project was developed as a final for a Python course. It covers:
+- File I/O
+- Functions and control flow
+- Loops and dictionaries
+- Class and object use
+- Real-world app structure
+
+---
+
+## 📫 Contact
+
+**Heiner Alcala-Salas**  
+📧 Email: Eduardo_mex92@Outlook.com
