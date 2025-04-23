@@ -40,3 +40,14 @@ This project demonstrates object-oriented design with real-world file handling, 
 <pre>budget-tracker/ ├── main.py # GUI version using EasyFrame (BreezyPythonGUI) ├── budgetApp.py # CLI-based version of the app ├── BudgetTracker.py # Core logic for managing categories and tracking ├── Category.py # Defines a single category and its expenses ├── budget_data.json # Persistent storage file for income and expenses ├── dollar_icon.gif # Header icon image used in the GUI
 </pre>
 
+
+---
+
+## 🚀 How to Run
+
+### Requirements:
+- Python 3.x
+- Install `matplotlib` if not already installed:
+  ```bash
+  pip install matplotlib
+
